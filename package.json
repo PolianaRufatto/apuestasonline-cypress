@@ -1,0 +1,41 @@
+{
+  "name": "apuestasonline-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:check": "yarn lint && yarn lint:prettier",
+    "lint:format": "yarn lint --fix --quiet && yarn lint:prettier --write",
+    "lint:gherkin": "yarn gherkin-lint -c .gherkin-lintrc.json cypress/integration",
+    "lint:prettier": "./node_modules/.bin/prettier --check \"**/*.js*\"",
+    "test:run": "cypress run --browser chrome --config video=false"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:cypress/recommended"
+    ]
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@babel/preset-env": "^7.16.4",
+    "babel-eslint": "^10.1.0",
+    "cucumber": "^4.2.1",
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.25.3",
+    "gherkin-lint": "^4.2.2",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
+  }
+}
