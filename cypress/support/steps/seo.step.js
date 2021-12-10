@@ -48,7 +48,7 @@ Then(/^have the descption 'ApuestasOnline.net: Las mejores apuestas online de Es
 });
 
 Then(/^verify if have at least 2$/, () => {
-  seoPage.verifyQuantity(defaultElements.h2, 7);
+  seoPage.verifyQuantity('h2', 7);
 });
 
 Then(/^all have alt tags$/, () => {
