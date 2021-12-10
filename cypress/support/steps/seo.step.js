@@ -1,5 +1,6 @@
 /* eslint-disable no-magic-numbers */
 import * as systemMessages from '../../fixtures/SystemMessages.constant';
+import { defaultElements } from '../elements';
 import { seoPage } from '../pages';
 
 Given(/^I'm on the initial page$/, () => {
@@ -7,61 +8,64 @@ Given(/^I'm on the initial page$/, () => {
 });
 
 When(/^have an h1 element$/, () => {
-  seoPage.searchElement('h1');
+  seoPage.searchElement(defaultElements.h1);
 });
 
 When(/^have an h2 element$/, () => {
-  seoPage.searchElement('h2');
+  seoPage.searchElement(defaultElements.h2);
 });
 
 When(/^have images$/, () => {
-  seoPage.searchElement('img');
+  seoPage.searchElement(defaultElements.img);
 });
 
 When(/^have a title$/, () => {
-  seoPage.searchElement('title');
+  seoPage.searchElement(defaultElements.title);
 });
 
 When(/^I have an h3 element$/, () => {
-  seoPage.searchElement('h3');
+  seoPage.searchElement(defaultElements.h3);
 });
 
 When(/^I have an h4 element$/, () => {
-  seoPage.searchElement('h4');
+  seoPage.searchElement(defaultElements.h4);
 });
 
 When(/^have a canonical link$/, () => {
-  seoPage.searchElement('link[rel="canonical"]');
+  seoPage.searchElement(defaultElements.canonical);
 });
 
 When(/^I have a html tag$/, () => {
-  seoPage.searchElement('html');
+  seoPage.searchElement(defaultElements.canonical);
 });
 
 Then(/^verify if have only one h1 element$/, () => {
-  seoPage.verifyQuantity('h1', 1);
+  seoPage.verifyQuantity(defaultElements.h1, 1);
 });
 
-Then(/^have the descption '(.+)'$/, (description) => {
-  seoPage.verifyDescription('h1', systemMessages.H1_TITLE);
+Then(/^have the descption 'ApuestasOnline.net: Las mejores apuestas online de España'$/, () => {
+  seoPage.verifyDescription(defaultElements.h1, systemMessages.H1_TITLE);
 });
 
 Then(/^verify if have at least 2$/, () => {
-  seoPage.verifyQuantity('h2', 7);
+  seoPage.verifyQuantity(defaultElements.h2, 7);
 });
 
 Then(/^all have alt tags$/, () => {
   seoPage.verifyTagAltImage();
 });
 
-Then(/^the title have the descption '(.+)'$/, (description) => {
+Then(/^the title have the description 'Mejores apuestas online 2021 → Ranking España y Latam'$/, () => {
   seoPage.verifyDescription('title', systemMessages.HEAD_TITLE);
 });
 
-Then(/^the meta description is '(.+)'$/, (description) => {
-  seoPage.searchElement('meta[name="description"]');
-  seoPage.verifyMetaDescription(systemMessages.META_DESCRIPTION);
-});
+Then(
+  /^the meta description is 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en diciembre 2021'$/,
+  () => {
+    seoPage.searchElement(defaultElements.metaDescription);
+    seoPage.verifyMetaDescription(systemMessages.META_DESCRIPTION);
+  },
+);
 
 Then(/^it was valid$/, () => {
   seoPage.verifyCanonicalLink();

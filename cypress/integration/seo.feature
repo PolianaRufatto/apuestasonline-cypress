@@ -18,7 +18,7 @@ Feature: SEO Friendly
 
     Scenario: Should have one heading with a title and meta description
         When have a title
-        Then the title have the descption 'Mejores apuestas online 2021 → Ranking España y Latam'
+        Then the title have the description 'Mejores apuestas online 2021 → Ranking España y Latam'
             And the meta description is 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en diciembre 2021'
 
     Scenario: Should content is divided by multiple subheadings
