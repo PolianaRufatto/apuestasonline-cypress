@@ -1,16 +1,17 @@
 {
   "name": "apuestasonline-cypress",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PolianaRufatto/apuestasonline-cypress"
+  },
+  "author": "Poliana Rufatto",
   "license": "ISC",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
-    "lint:check": "yarn lint && yarn lint:prettier",
-    "lint:format": "yarn lint --fix --quiet && yarn lint:prettier --write",
-    "lint:gherkin": "yarn gherkin-lint -c .gherkin-lintrc.json cypress/integration",
-    "lint:prettier": "./node_modules/.bin/prettier --check \"**/*.js*\"",
+    "code:prettier": "./node_modules/.bin/prettier --check \"**/*.js*\"",
+    "code:format": "yarn lint --fix --quiet && yarn code:prettier --write",
+    "code:gherkin": "yarn gherkin-lint -c .gherkin-lintrc.json cypress/integration",
     "test:run": "cypress run --browser chrome --config video=false"
   },
   "cypress-cucumber-preprocessor": {
