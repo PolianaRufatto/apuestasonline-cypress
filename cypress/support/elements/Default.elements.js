@@ -8,6 +8,9 @@ class DefaultElements {
   canonical = () => 'link[rel="canonical"]';
   html = () => 'html';
   metaDescription = () => 'meta[name="description"]';
+  metaRobots = () => 'meta[name="robots"]';
+  link = () => 'link';
+  a = () => 'a';
 }
 
 export const defaultElements = new DefaultElements();
