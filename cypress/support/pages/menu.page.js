@@ -1,13 +1,13 @@
 /// <reference types="Cypress" />
 
 class MenuPage {
-  verifyMenuItems(element, data) {
+  checkMenuItems(element, data) {
     cy.get(element).each(($el, i) => {
       expect($el).to.have.text(data[i].name);
     });
   }
 
-  verifySubMenuItems(element, data) {
+  checkSubMenuItems(element, data) {
     cy.get(element).each(($el, i) => {
       expect($el).to.have.text(data.SubMenus[i]);
     });

@@ -20,9 +20,9 @@ When(/^I open this menu (.*)$/, (index) => {
 });
 
 Then(/^should have the menu items$/, () => {
-  menuPage.verifyMenuItems(menuElements.navigationMenuItems(), context.data.Menus);
+  menuPage.checkMenuItems(menuElements.navigationMenuItems(), context.data.Menus);
 });
 
 Then(/^should show the submenu items from (.*)$/, (index) => {
-  menuPage.verifySubMenuItems(menuElements.subMenuItems(), context.data.Menus[index - 1]);
+  menuPage.checkSubMenuItems(menuElements.subMenuItems(), context.data.Menus[index - 1]);
 });

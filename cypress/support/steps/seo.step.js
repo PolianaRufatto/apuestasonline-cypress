@@ -6,19 +6,19 @@ Given(/^I'm on the initial page$/, () => {
   commonPage.open();
 });
 
-When(/^have an h1 element$/, () => {
+When(/^I have an h1 element$/, () => {
   commonPage.searchElement(defaultElements.h1());
 });
 
-When(/^have an h2 element$/, () => {
+When(/^I have an h2 element$/, () => {
   commonPage.searchElement(defaultElements.h2());
 });
 
-When(/^have images$/, () => {
+When(/^I have images$/, () => {
   commonPage.searchElement(defaultElements.img());
 });
 
-When(/^have a title$/, () => {
+When(/^I have a title$/, () => {
   commonPage.searchElement(defaultElements.title());
 });
 
@@ -30,7 +30,7 @@ When(/^I have an h4 element$/, () => {
   commonPage.searchElement(defaultElements.h4());
 });
 
-When(/^have a canonical link$/, () => {
+When(/^I have a canonical link$/, () => {
   commonPage.searchElement(defaultElements.canonical());
 });
 
@@ -38,47 +38,47 @@ When(/^I have a html tag$/, () => {
   commonPage.searchElement(defaultElements.html());
 });
 
-Then(/^verify if have only one h1 element$/, () => {
-  seoPage.verifyQuantity(defaultElements.h1(), 1);
+Then(/^check if has only one h1 element$/, () => {
+  seoPage.checkLength(defaultElements.h1(), 1);
 });
 
-Then(/^have the descption '([^"]*)'$/, (descr) => {
-  seoPage.verifyDescription(defaultElements.h1(), descr);
+Then(/^the h1 descption is '([^"]*)'$/, (descr) => {
+  seoPage.checkDescription(defaultElements.h1(), descr);
 });
 
-Then(/^verify if have at least 2$/, () => {
-  seoPage.verifyQuantity(defaultElements.h2(), 7);
+Then(/^check if has at least 2$/, () => {
+  seoPage.checkLength(defaultElements.h2(), 7);
 });
 
-Then(/^all have alt tags$/, () => {
-  seoPage.verifyTagAltImage();
+Then(/^check if all has alt tags$/, () => {
+  seoPage.checkTagAltImage();
 });
 
-Then(/^the title have the description '([^"]*)'$/, (descr) => {
-  seoPage.verifyDescription(defaultElements.title(), descr);
+Then(/^check if the title has value equals '([^"]*)'$/, (descr) => {
+  seoPage.checkDescription(defaultElements.title(), descr);
 });
 
-Then(/^the meta description is '([^"]*)'$/, (descr) => {
+Then(/^check if the has meta description is '([^"]*)'$/, (descr) => {
   commonPage.searchElement(defaultElements.metaDescription());
-  seoPage.verifyMetaDescription(descr);
+  seoPage.checkMetaDescription(descr);
 });
 
-Then(/^it was valid$/, () => {
-  seoPage.verifyCanonicalLink();
+Then(/^it is valid$/, () => {
+  seoPage.checkCanonicalLink();
 });
 
-Then(/^verify if have multiple h3$/, () => {
-  seoPage.verifyQuantity(defaultElements.h3(), 24);
+Then(/^check if has multiple h3$/, () => {
+  seoPage.checkLength(defaultElements.h3(), 24);
 });
 
-Then(/^verify if have multiple h4$/, () => {
-  seoPage.verifyQuantity(defaultElements.h4(), 5);
+Then(/^check if has multiple h4$/, () => {
+  seoPage.checkLength(defaultElements.h4(), 5);
 });
 
-Then(/^the tag has a attrib lang$/, () => {
-  seoPage.verifyLangAttr();
+Then(/^the tag has a attribute lang$/, () => {
+  seoPage.checkLangAttr();
 });
 
-Then(/^the language is '(.+)'$/, (language) => {
-  seoPage.verifyLanguage(language);
+Then(/^the value is set to '(.+)'$/, (language) => {
+  seoPage.checkLanguage(language);
 });

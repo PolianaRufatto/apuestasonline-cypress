@@ -1,36 +1,42 @@
 /// <reference types="Cypress" />
 
+import { defaultElements } from '../elements';
+
 class SeoPage {
-  verifyQuantity(element, quantity) {
+  checkLength(element, quantity) {
     cy.get(element).should('have.length', quantity);
   }
 
-  verifyDescription(element, description) {
-    cy.get(element).contains(description);
+  checkGreaterThen(element, quantity) {
+    cy.get(element).should('be.greaterThan', quantity);
   }
 
-  verifyMetaDescription(description) {
-    cy.get('meta[name="description"]').should('have.attr', 'content').and('match', new RegExp(description));
+  checkDescription(element, description) {
+    cy.get(element).should('have.text', description);
   }
 
-  verifyTagAltImage() {
-    cy.get('img').each(($el) => {
+  checkMetaDescription(description) {
+    cy.get(defaultElements.metaDescription()).should('have.attr', 'content').and('match', new RegExp(description));
+  }
+
+  checkTagAltImage() {
+    cy.get(defaultElements.img()).each(($el) => {
       cy.wrap($el).should('have.attr', 'alt');
     });
   }
 
-  verifyCanonicalLink() {
+  checkCanonicalLink() {
     cy.url().then((url) => {
-      cy.get('link[rel="canonical"]').should('have.attr', 'href').and('equal', url);
+      cy.get(defaultElements.canonical()).should('have.attr', 'href').and('equal', url);
     });
   }
 
-  verifyLangAttr() {
-    cy.get('html').should('have.attr', 'lang');
+  checkLangAttr() {
+    cy.get(defaultElements.html()).should('have.attr', 'lang');
   }
 
-  verifyLanguage(language) {
-    cy.get('html').should('have.attr', 'lang').and('match', new RegExp(language));
+  checkLanguage(language) {
+    cy.get(defaultElements.html()).should('have.attr', 'lang').and('match', new RegExp(language));
   }
 }
 
