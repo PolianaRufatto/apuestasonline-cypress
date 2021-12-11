@@ -1,18 +1,18 @@
 /* eslint-disable no-magic-numbers */
 import { context } from '../../fixtures/Context';
 import { menuElements } from '../elements';
-import { menuPage, seoPage } from '../pages';
+import { commonPage, menuPage } from '../pages';
 
 Given(/^I'm on the initial page$/, () => {
-  seoPage.open();
+  commonPage.open();
 });
 
 When(/^I have a navigation menu on top$/, () => {
-  seoPage.searchElement(menuElements.navigationMenu);
+  commonPage.searchElement(menuElements.navigationMenu);
 });
 
 When(/^I have a menu call (.*)$/, (index) => {
-  seoPage.searchElement(menuElements.navigationMenuItemsIndex(index));
+  commonPage.searchElement(menuElements.navigationMenuItemsIndex(index));
 });
 
 When(/^I open this menu (.*)$/, (index) => {
