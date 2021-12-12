@@ -47,7 +47,7 @@ Then(/^the h1 descption is '([^"]*)'$/, (descr) => {
 });
 
 Then(/^check if has at least 2$/, () => {
-  seoPage.checkLength(defaultElements.h2(), 7);
+  seoPage.checkLengthGreaterThen(defaultElements.h2(), 2);
 });
 
 Then(/^check if all has alt tags$/, () => {

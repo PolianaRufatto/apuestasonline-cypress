@@ -7,8 +7,8 @@ class SeoPage {
     cy.get(element).should('have.length', quantity);
   }
 
-  checkGreaterThen(element, quantity) {
-    cy.get(element).should('be.greaterThan', quantity);
+  checkLengthGreaterThen(element, quantity) {
+    cy.get(element).its('length').should('be.gte', quantity);
   }
 
   checkDescription(element, description) {
