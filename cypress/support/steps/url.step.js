@@ -1,3 +1,4 @@
+import { defaultElements } from '../elements';
 import { commonPage, urlPage } from '../pages';
 
 Given(/^I'm on the initial page$/, () => {
@@ -5,7 +6,7 @@ Given(/^I'm on the initial page$/, () => {
 });
 
 When(/^I have a link$/, () => {
-  commonPage.searchElement(defaultElements.link);
+  commonPage.searchElement(defaultElements.link());
 });
 
 Then(/^check if all the links are working$/, () => {
