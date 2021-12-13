@@ -15,3 +15,19 @@ jobs:
         run: yarn
       - name: Run test
         run: yarn test:run
+      - name: Generate Allure report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: tests-results/allure-results
+          gh_pages: gh-pages
+          allure_report: tests-results/allure-report
+          allure_history: tests-results/allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: tests-results/allure-history
