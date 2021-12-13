@@ -13,7 +13,7 @@ This project uses lot of stuff as:
 - [Allure Report](http://allure.qatools.ru/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-## Continues Integration
+## Continuous Integration
 - GitHub Actions
 - GitHub Pages
 
