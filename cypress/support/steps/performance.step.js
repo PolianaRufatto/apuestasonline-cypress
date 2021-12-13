@@ -10,6 +10,6 @@ When(/^I run the lighthouse$/, () => {
 });
 
 Then(/^the reporter has been created$/, () => {
-  performancePage.checkLighthouseReport('tests-results/performanceReport.html');
+  performancePage.checkLighthouseReport('tests-results/output/performanceReport.html');
 });
 

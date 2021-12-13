@@ -20,7 +20,7 @@ module.exports = (on, config) => {
   });
   on('task', {
     lighthouse: lighthouse((lighthouseReport) => {
-      fs.outputFileSync('tests-results/performanceReport.html', ReportGenerator.generateReport(lighthouseReport.lhr, 'html'));
+      fs.outputFileSync('tests-results/output/performanceReport.html', ReportGenerator.generateReport(lighthouseReport.lhr, 'html'));
     }),
   });
   on('file:preprocessor', cucumber());

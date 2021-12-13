@@ -19,7 +19,7 @@ class UrlPage {
       })
       .then(() => {
         if (URLs.length > 0 || IDs.length > 0) {
-          cy.writeFile('tests-results/FailedLinks.txt', {'Not working URLs ': URLs, 'Links without href property': IDs});
+          cy.writeFile('tests-results/output/FailedLinks.txt', {'Not working URLs ': URLs, 'Links without href property': IDs});
         }
       });
   }
