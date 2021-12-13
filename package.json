@@ -12,8 +12,8 @@
     "code:prettier": "./node_modules/.bin/prettier --check \"**/*.js*\"",
     "code:format": "yarn lint --fix --quiet && yarn code:prettier --write",
     "code:gherkin": "yarn gherkin-lint -c .gherkin-lintrc.json cypress/integration",
-    "allure:generate": "yarn allure generate --clean ./test-report/allure-results/ -o ./test-report/allure-report",
-    "allure:open": "allure open ./test-report/allure-report",
+    "allure:generate": "yarn allure generate --clean ./tests-results/allure-results/ -o ./tests-results/allure-report",
+    "allure:open": "allure open ./tests-results/allure-report",
     "test:run": "cypress run --browser chrome --config video=false --env allure=true"
   },
   "cypress-cucumber-preprocessor": {
@@ -33,14 +33,17 @@
     "babel-eslint": "^10.1.0",
     "cucumber": "^4.2.1",
     "cypress": "^9.1.1",
+    "cypress-audit": "^1.1.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "eslint": "^8.4.1",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.25.3",
+    "fs-extra": "^10.0.0",
     "gherkin-lint": "^4.2.2",
     "husky": "^7.0.4",
+    "lighthouse": "^9.1.0",
     "prettier": "^2.5.1"
   }
 }
