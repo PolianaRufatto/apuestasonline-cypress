@@ -1,0 +1,402 @@
+{
+  "uid" : "139bb56bd4fcbff7",
+  "name" : "Show the menu on top",
+  "fullName" : "Show the menu on top",
+  "historyId" : "af9785a40c84d471bc43b44b58cdecd6",
+  "time" : {
+    "start" : 1641010769655,
+    "stop" : 1641010772664,
+    "duration" : 3009
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1641010769660,
+        "stop" : 1641010769661,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1641010769671,
+        "stop" : 1641010772544,
+        "duration" : 2873
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1641010769672,
+          "stop" : 1641010772541,
+          "duration" : 2869
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=177831087&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online 2022 → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=917519997&gjid=898977299&cid=1594159031.1641010771&tid=UA-36603263-2&_gid=33831899.1641010771&_r=1&gtm=2wgc10MXFLLMS&z=402683741",
+        "time" : {
+          "start" : 1641010772540,
+          "stop" : 1641010772540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=177831087&t=pageview&_s=1&dl=https%3A%2F%2Fapuestasonline.net%2F&ul=en-us&de=UTF-8&dt=Mejores%20apuestas%20online%202022%20%E2%86%92%20Ranking%20Espa%C3%B1a%20y%20Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=917519997&gjid=898977299&cid=1594159031.1641010771&tid=UA-36603263-2&_gid=33831899.1641010771&_r=1&gtm=2wgc10MXFLLMS&z=402683741",
+        "time" : {
+          "start" : 1641010772540,
+          "stop" : 1641010772540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-36603263-2&cid=1594159031.1641010771&jid=917519997&gjid=898977299&_gid=33831899.1641010771&_u=YEBAAEAAAAAAAC~&z=25229061",
+        "time" : {
+          "start" : 1641010772540,
+          "stop" : 1641010772540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I have a navigation menu on top",
+      "time" : {
+        "start" : 1641010772544,
+        "stop" : 1641010772562,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get function(){}",
+        "time" : {
+          "start" : 1641010772545,
+          "stop" : 1641010772558,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<document>** to exist in the DOM",
+        "time" : {
+          "start" : 1641010772558,
+          "stop" : 1641010772558,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<document>"
+        }, {
+          "name" : "expected",
+          "value" : "<document>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then should have the menu items",
+      "time" : {
+        "start" : 1641010772562,
+        "stop" : 1641010772664,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #navigation-menu-items > div > span:nth-child(1)",
+        "time" : {
+          "start" : 1641010772562,
+          "stop" : 1641010772589,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<span>** to have text **Bonos**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Bonos"
+        }, {
+          "name" : "expected",
+          "value" : "Bonos"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Latinoamérica**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Latinoamérica"
+        }, {
+          "name" : "expected",
+          "value" : "Latinoamérica"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Deportes**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Deportes"
+        }, {
+          "name" : "expected",
+          "value" : "Deportes"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Pagos**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Pagos"
+        }, {
+          "name" : "expected",
+          "value" : "Pagos"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Casinos**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Casinos"
+        }, {
+          "name" : "expected",
+          "value" : "Casinos"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Poker**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Poker"
+        }, {
+          "name" : "expected",
+          "value" : "Poker"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **eSports**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "eSports"
+        }, {
+          "name" : "expected",
+          "value" : "eSports"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Casas de Apuestas**",
+        "time" : {
+          "start" : 1641010772662,
+          "stop" : 1641010772662,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Casas de Apuestas"
+        }, {
+          "name" : "expected",
+          "value" : "Casas de Apuestas"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1641010772706,
+        "stop" : 1641010772708,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Menu on top"
+  }, {
+    "name" : "feature",
+    "value" : "Menu on top"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "139bb56bd4fcbff7.json",
+  "parameterValues" : [ ]
+}
