@@ -1,0 +1,365 @@
+{
+  "uid" : "6bffa78a76ed2bf0",
+  "name" : "Show the submenu on Deportes (example #4)",
+  "fullName" : "Show the submenu on Deportes (example #4)",
+  "historyId" : "b516efa9e6b84e09d43a835dc3ddb099",
+  "time" : {
+    "start" : 1641097200102,
+    "stop" : 1641097201383,
+    "duration" : 1281
+  },
+  "status" : "failed",
+  "statusMessage" : "expected '<span>' to have text 'Apuestas LaLiga', but the text was 'Apuestas Tenis'",
+  "statusTrace" : "AssertionError: expected '<span>' to have text 'Apuestas LaLiga', but the text was 'Apuestas Tenis'\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/menu.feature:405:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected '<span>' to have text 'Apuestas LaLiga', but the text was 'Apuestas Tenis'",
+    "statusTrace" : "AssertionError: expected '<span>' to have text 'Apuestas LaLiga', but the text was 'Apuestas Tenis'\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/menu.feature:405:29)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1641097200102,
+        "stop" : 1641097200176,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1641097200181,
+        "stop" : 1641097200636,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1641097200181,
+          "stop" : 1641097200634,
+          "duration" : 453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1829033788&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online 2022 → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=227539391&gjid=602942599&cid=1208730635.1641097201&tid=UA-36603263-2&_gid=999085258.1641097201&_r=1&gtm=2wgc10MXFLLMS&z=326915152",
+        "time" : {
+          "start" : 1641097200634,
+          "stop" : 1641097200634,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I have a menu call 4",
+      "time" : {
+        "start" : 1641097200636,
+        "stop" : 1641097200644,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #navigation-menu-items > div:nth-child(4)",
+        "time" : {
+          "start" : 1641097200636,
+          "stop" : 1641097200643,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.navigation-menu-item.>** to exist in the DOM",
+        "time" : {
+          "start" : 1641097200643,
+          "stop" : 1641097200643,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<div.navigation-menu-item.>"
+        }, {
+          "name" : "expected",
+          "value" : "<div.navigation-menu-item.>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And I open this menu 4",
+      "time" : {
+        "start" : 1641097200644,
+        "stop" : 1641097200938,
+        "duration" : 294
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #navigation-menu-items > div:nth-child(4) > span:nth-child(1)",
+        "time" : {
+          "start" : 1641097200645,
+          "stop" : 1641097200648,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1641097200648,
+          "stop" : 1641097200936,
+          "duration" : 288
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1829033788&t=pageview&_s=1&dl=https%3A%2F%2Fapuestasonline.net%2F&ul=en-us&de=UTF-8&dt=Mejores%20apuestas%20online%202022%20%E2%86%92%20Ranking%20Espa%C3%B1a%20y%20Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=227539391&gjid=602942599&cid=1208730635.1641097201&tid=UA-36603263-2&_gid=999085258.1641097201&_r=1&gtm=2wgc10MXFLLMS&z=326915152",
+        "time" : {
+          "start" : 1641097200936,
+          "stop" : 1641097200936,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-36603263-2&cid=1208730635.1641097201&jid=227539391&gjid=602942599&_gid=999085258.1641097201&_u=YEBAAEAAAAAAAC~&z=580457498",
+        "time" : {
+          "start" : 1641097200936,
+          "stop" : 1641097200936,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST /cdn-cgi/rum?",
+        "time" : {
+          "start" : 1641097200936,
+          "stop" : 1641097200936,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then should show the submenu items from 4",
+      "time" : {
+        "start" : 1641097200938,
+        "stop" : 1641097201382,
+        "duration" : 444
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #navigation-sub-menus > div[data-show=\"true\"] > div.navigation-sub-menu-item> a > span",
+        "time" : {
+          "start" : 1641097200939,
+          "stop" : 1641097200957,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<span>** to have text **Apuestas Fútbol**",
+        "time" : {
+          "start" : 1641097201382,
+          "stop" : 1641097201382,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Apuestas Fútbol"
+        }, {
+          "name" : "expected",
+          "value" : "Apuestas Fútbol"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "assert expected **<span>** to have text **Apuestas LaLiga**, but the text was **Apuestas Tenis**",
+        "time" : {
+          "start" : 1641097201382,
+          "stop" : 1641097201382,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **'<span>'** to have text **'\\nApuestas Deportivas&nbsp;'**",
+        "time" : {
+          "start" : 1641097201382,
+          "stop" : 1641097201382,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "\nApuestas Deportivas "
+        }, {
+          "name" : "expected",
+          "value" : "\nApuestas Deportivas "
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1641097201397,
+        "stop" : 1641097201398,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "83e2d86b0930970e",
+      "name" : "menu.feature:2022-01-02T04:20:01.023Z",
+      "source" : "83e2d86b0930970e.png",
+      "type" : "image/png",
+      "size" : 186847
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Menu on top"
+  }, {
+    "name" : "feature",
+    "value" : "Menu on top"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6bffa78a76ed2bf0.json",
+  "parameterValues" : [ ]
+}
