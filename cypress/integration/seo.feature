@@ -18,8 +18,8 @@ Feature: SEO Friendly
 
     Scenario: Have one heading with a title and meta description
         When I have a title
-        Then check if the title has value equals 'Mejores apuestas online 2021 → Ranking España y Latam'
-            And check if the has meta description is 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en diciembre 2021'
+        Then check if the title is correct
+            And check if the meta description is correct
 
     Scenario: Content is divided by multiple subheadings
         When I have an h3 element

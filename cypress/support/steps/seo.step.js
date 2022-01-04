@@ -1,6 +1,11 @@
 /* eslint-disable no-magic-numbers */
+import dayjs from "dayjs";
+import { es } from "dayjs/locale/es";
 import { defaultElements } from '../elements';
 import { commonPage, seoPage } from '../pages';
+
+const month = dayjs().locale('es').format('MMMM');
+const year = dayjs().format('YYYY');
 
 Given(/^I'm on the initial page$/, () => {
   commonPage.open();
@@ -54,13 +59,15 @@ Then(/^check if all has alt tags$/, () => {
   seoPage.checkTagAltImage();
 });
 
-Then(/^check if the title has value equals '([^"]*)'$/, (descr) => {
-  seoPage.checkDescription(defaultElements.title(), descr);
+Then(/^check if the title is correct$/, () => {
+  const description = `Mejores apuestas online ${year} → Ranking España y Latam`
+  seoPage.checkDescription(defaultElements.title(), description);
 });
 
-Then(/^check if the has meta description is '([^"]*)'$/, (descr) => {
+Then(/^check if the meta description is correct$/, () => { 
+  const description = `Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en ${month} ${year}`;
   commonPage.searchElement(defaultElements.metaDescription());
-  seoPage.checkMetaDescription(descr);
+  seoPage.checkMetaDescription(description);
 });
 
 Then(/^it is valid$/, () => {
