@@ -1,0 +1,237 @@
+{
+  "uid" : "b2ac5d93dc62f2aa",
+  "name" : "Have a robots meta tag",
+  "fullName" : "Have a robots meta tag",
+  "historyId" : "d5120813d0fe782d85971b1140881e00",
+  "time" : {
+    "start" : 1641615625411,
+    "stop" : 1641615626471,
+    "duration" : 1060
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1641615625415,
+        "stop" : 1641615625416,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1641615625429,
+        "stop" : 1641615626440,
+        "duration" : 1011
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1641615625431,
+          "stop" : 1641615626435,
+          "duration" : 1004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=928093822&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online 2022 → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=1605642977&gjid=2120271148&cid=290632658.1641615626&tid=UA-36603263-2&_gid=423544657.1641615626&_r=1&gtm=2wg150MXFLLMS&z=562886906",
+        "time" : {
+          "start" : 1641615626435,
+          "stop" : 1641615626435,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I have a meta robots",
+      "time" : {
+        "start" : 1641615626440,
+        "stop" : 1641615626457,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get function(){}",
+        "time" : {
+          "start" : 1641615626441,
+          "stop" : 1641615626455,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<document>** to exist in the DOM",
+        "time" : {
+          "start" : 1641615626454,
+          "stop" : 1641615626454,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<document>"
+        }, {
+          "name" : "expected",
+          "value" : "<document>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then check the content",
+      "time" : {
+        "start" : 1641615626457,
+        "stop" : 1641615626471,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get meta[name=\"robots\"]",
+        "time" : {
+          "start" : 1641615626458,
+          "stop" : 1641615626469,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<meta>** to have attribute **content**",
+        "time" : {
+          "start" : 1641615626468,
+          "stop" : 1641615626468,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1** to match /index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1/",
+        "time" : {
+          "start" : 1641615626469,
+          "stop" : 1641615626469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1641615626610,
+        "stop" : 1641615626613,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Schema definition and robots.txt"
+  }, {
+    "name" : "feature",
+    "value" : "Schema definition and robots.txt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2ac5d93dc62f2aa.json",
+  "parameterValues" : [ ]
+}

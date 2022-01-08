@@ -1,0 +1,276 @@
+{
+  "uid" : "20abd234ce6a1c7a",
+  "name" : "Have only one h1 element",
+  "fullName" : "Have only one h1 element",
+  "historyId" : "9c4a3f2dc56765f6effbbb5e1197276b",
+  "time" : {
+    "start" : 1641615631888,
+    "stop" : 1641615633016,
+    "duration" : 1128
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1641615631915,
+        "stop" : 1641615631916,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1641615631945,
+        "stop" : 1641615632953,
+        "duration" : 1008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1641615631946,
+          "stop" : 1641615632950,
+          "duration" : 1004
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1738259042&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online 2022 → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=865782890&gjid=1606193175&cid=914492524.1641615633&tid=UA-36603263-2&_gid=1613957600.1641615633&_r=1&gtm=2wg150MXFLLMS&z=794186998",
+        "time" : {
+          "start" : 1641615632950,
+          "stop" : 1641615632950,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I have an h1 element",
+      "time" : {
+        "start" : 1641615632953,
+        "stop" : 1641615632989,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get h1",
+        "time" : {
+          "start" : 1641615632958,
+          "stop" : 1641615632985,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h1.home-header-title>** to exist in the DOM",
+        "time" : {
+          "start" : 1641615632985,
+          "stop" : 1641615632985,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<h1.home-header-title>"
+        }, {
+          "name" : "expected",
+          "value" : "<h1.home-header-title>"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then check if has only one h1 element",
+      "time" : {
+        "start" : 1641615632989,
+        "stop" : 1641615633001,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get h1",
+        "time" : {
+          "start" : 1641615632990,
+          "stop" : 1641615632999,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h1.home-header-title>** to have a length of **1**",
+        "time" : {
+          "start" : 1641615632999,
+          "stop" : 1641615632999,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And the h1 descption is 'ApuestasOnline.net: Las mejores apuestas online de España'",
+      "time" : {
+        "start" : 1641615633001,
+        "stop" : 1641615633015,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get h1",
+        "time" : {
+          "start" : 1641615633005,
+          "stop" : 1641615633014,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h1.home-header-title>** to have text **ApuestasOnline.net: Las mejores apuestas online de España**",
+        "time" : {
+          "start" : 1641615633013,
+          "stop" : 1641615633013,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "ApuestasOnline.net: Las mejores apuestas online de España"
+        }, {
+          "name" : "expected",
+          "value" : "ApuestasOnline.net: Las mejores apuestas online de España"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1641615633159,
+        "stop" : 1641615633162,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SEO Friendly"
+  }, {
+    "name" : "feature",
+    "value" : "SEO Friendly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20abd234ce6a1c7a.json",
+  "parameterValues" : [ ]
+}
