@@ -1,0 +1,398 @@
+{
+  "uid" : "3078220553f58ee3",
+  "name" : "Have one heading with a title and meta description",
+  "fullName" : "Have one heading with a title and meta description",
+  "historyId" : "ec70edf513881d9fa5c42f2a2124216a",
+  "time" : {
+    "start" : 1643689101594,
+    "stop" : 1643689182101,
+    "duration" : 80507
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 80000ms: expected 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022' to match /Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en febrero 2022/",
+  "statusTrace" : "AssertionError: Timed out retrying after 80000ms: expected 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022' to match /Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en febrero 2022/\n    at SeoPage.checkMetaDescription (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:550:90)\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:780:18)\n    at Context.resolveAndRunStepDefinition (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:10230:29)\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:9551:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 80000ms: expected 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022' to match /Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en febrero 2022/",
+    "statusTrace" : "AssertionError: Timed out retrying after 80000ms: expected 'Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022' to match /Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en febrero 2022/\n    at SeoPage.checkMetaDescription (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:550:90)\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:780:18)\n    at Context.resolveAndRunStepDefinition (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:10230:29)\n    at Context.eval (https://apuestasonline.net/__cypress/tests?p=cypress/integration/seo.feature:9551:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643689101594,
+        "stop" : 1643689101620,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1643689101623,
+        "stop" : 1643689101893,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643689101623,
+          "stop" : 1643689101892,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1356719070&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online 2022 → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=1517671917&gjid=465734179&cid=1294013120.1643689102&tid=UA-36603263-2&_gid=1920932007.1643689102&_r=1&gtm=2wg1q0MXFLLMS&z=874314881",
+        "time" : {
+          "start" : 1643689101892,
+          "stop" : 1643689101892,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1356719070&t=pageview&_s=1&dl=https%3A%2F%2Fapuestasonline.net%2F&ul=en-us&de=UTF-8&dt=Mejores%20apuestas%20online%202022%20%E2%86%92%20Ranking%20Espa%C3%B1a%20y%20Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=1517671917&gjid=465734179&cid=1294013120.1643689102&tid=UA-36603263-2&_gid=1920932007.1643689102&_r=1&gtm=2wg1q0MXFLLMS&z=874314881",
+        "time" : {
+          "start" : 1643689101892,
+          "stop" : 1643689101892,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-36603263-2&cid=1294013120.1643689102&jid=1517671917&gjid=465734179&_gid=1920932007.1643689102&_u=YEBAAEAAAAAAAC~&z=1934342757",
+        "time" : {
+          "start" : 1643689101892,
+          "stop" : 1643689101892,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://jscloud.net/x/17177/httpsapuestasonlinenet.json",
+        "time" : {
+          "start" : 1643689101892,
+          "stop" : 1643689101892,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "When I have a title",
+      "time" : {
+        "start" : 1643689101893,
+        "stop" : 1643689101897,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get title",
+        "time" : {
+          "start" : 1643689101894,
+          "stop" : 1643689101896,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<title>** to exist in the DOM",
+        "time" : {
+          "start" : 1643689101896,
+          "stop" : 1643689101896,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<title>"
+        }, {
+          "name" : "expected",
+          "value" : "<title>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Then check if the title is correct",
+      "time" : {
+        "start" : 1643689101897,
+        "stop" : 1643689101900,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get title",
+        "time" : {
+          "start" : 1643689101897,
+          "stop" : 1643689101899,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<title>** to have text **Mejores apuestas online 2022 → Ranking España y Latam**",
+        "time" : {
+          "start" : 1643689101899,
+          "stop" : 1643689101899,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Mejores apuestas online 2022 → Ranking España y Latam"
+        }, {
+          "name" : "expected",
+          "value" : "Mejores apuestas online 2022 → Ranking España y Latam"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "And check if the meta description is correct",
+      "time" : {
+        "start" : 1643689101900,
+        "stop" : 1643689182099,
+        "duration" : 80199
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get meta[name=\"description\"]",
+        "time" : {
+          "start" : 1643689101900,
+          "stop" : 1643689101902,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<meta>** to exist in the DOM",
+        "time" : {
+          "start" : 1643689101902,
+          "stop" : 1643689101902,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "<meta>"
+        }, {
+          "name" : "expected",
+          "value" : "<meta>"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "get meta[name=\"description\"]",
+        "time" : {
+          "start" : 1643689101902,
+          "stop" : 1643689182099,
+          "duration" : 80197
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<meta>** to have attribute **content**",
+        "time" : {
+          "start" : 1643689182099,
+          "stop" : 1643689182099,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022** to match /Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en febrero 2022/",
+        "time" : {
+          "start" : 1643689182099,
+          "stop" : 1643689182099,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Comparador de apuestas que analiza en detalle: cuotas, deportes, promos, app, seguridad y la mejor oferta de apuestas online España y Latam en enero 2022"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "POST 200 /cdn-cgi/rum?",
+        "time" : {
+          "start" : 1643689182099,
+          "stop" : 1643689182099,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1643689182135,
+        "stop" : 1643689182138,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2da4241c79b0556b",
+      "name" : "seo.feature:2022-02-01T04:19:41.914Z",
+      "source" : "2da4241c79b0556b.png",
+      "type" : "image/png",
+      "size" : 193536
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 21
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "SEO Friendly"
+  }, {
+    "name" : "feature",
+    "value" : "SEO Friendly"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3078220553f58ee3.json",
+  "parameterValues" : [ ]
+}
