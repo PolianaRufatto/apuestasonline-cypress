@@ -1,0 +1,6384 @@
+{
+  "uid" : "255dcc529ea54f5c",
+  "name" : "Links are valid and working",
+  "fullName" : "Links are valid and working",
+  "historyId" : "1d5354c378c15aae48240465c52146dc",
+  "time" : {
+    "start" : 1643862027450,
+    "stop" : 1643862160261,
+    "duration" : 132811
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1643862027453,
+        "stop" : 1643862027454,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I'm on the initial page",
+      "time" : {
+        "start" : 1643862027472,
+        "stop" : 1643862028479,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862027473,
+          "stop" : 1643862028469,
+          "duration" : 996
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://jscloud.net/x/17177/httpsapuestasonlinenet.json",
+        "time" : {
+          "start" : 1643862028468,
+          "stop" : 1643862028468,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=196815379&t=pageview&_s=1&dl=https://apuestasonline.net/&ul=en-us&de=UTF-8&dt=Mejores apuestas online (2022) → Ranking España y Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=873602538&gjid=955491854&cid=1142465527.1643862028&tid=UA-36603263-2&_gid=1188411597.1643862028&_r=1&gtm=2wg220MXFLLMS&z=1893249105",
+        "time" : {
+          "start" : 1643862028469,
+          "stop" : 1643862028469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I have a link",
+      "time" : {
+        "start" : 1643862028479,
+        "stop" : 1643862028511,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get link",
+        "time" : {
+          "start" : 1643862028481,
+          "stop" : 1643862028507,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <link>, 29 more... ]** to exist in the DOM",
+        "time" : {
+          "start" : 1643862028507,
+          "stop" : 1643862028507,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "[ <link>, 29 more... ]"
+        }, {
+          "name" : "expected",
+          "value" : "[ <link>, 29 more... ]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then check if all the links are working",
+      "time" : {
+        "start" : 1643862028511,
+        "stop" : 1643862160260,
+        "duration" : 131749
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get body",
+        "time" : {
+          "start" : 1643862028512,
+          "stop" : 1643862028516,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get a",
+        "time" : {
+          "start" : 1643862028516,
+          "stop" : 1643862028932,
+          "duration" : 416
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862029012,
+          "stop" : 1643862029016,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862029017,
+          "stop" : 1643862029797,
+          "duration" : 780
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=196815379&t=pageview&_s=1&dl=https%3A%2F%2Fapuestasonline.net%2F&ul=en-us&de=UTF-8&dt=Mejores%20apuestas%20online%20(2022)%20%E2%86%92%20Ranking%20Espa%C3%B1a%20y%20Latam&sd=24-bit&sr=1280x720&vp=1345x790&je=0&_u=YEBAAEABAAAAAC~&jid=873602538&gjid=955491854&cid=1142465527.1643862028&tid=UA-36603263-2&_gid=1188411597.1643862028&_r=1&gtm=2wg220MXFLLMS&z=1893249105",
+        "time" : {
+          "start" : 1643862029797,
+          "stop" : 1643862029797,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-36603263-2&cid=1142465527.1643862028&jid=873602538&gjid=955491854&_gid=1188411597.1643862028&_u=YEBAAEAAAAAAAC~&z=885511280",
+        "time" : {
+          "start" : 1643862029797,
+          "stop" : 1643862029797,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 /cdn-cgi/rum?",
+        "time" : {
+          "start" : 1643862029797,
+          "stop" : 1643862029797,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862029798,
+          "stop" : 1643862029801,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862029801,
+          "stop" : 1643862029938,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862029939,
+          "stop" : 1643862029952,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862029952,
+          "stop" : 1643862030079,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/nuevas/",
+        "time" : {
+          "start" : 1643862030079,
+          "stop" : 1643862030083,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/nuevas/",
+        "time" : {
+          "start" : 1643862030083,
+          "stop" : 1643862034789,
+          "duration" : 4706
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/seguras/",
+        "time" : {
+          "start" : 1643862034789,
+          "stop" : 1643862034830,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/seguras/",
+        "time" : {
+          "start" : 1643862034830,
+          "stop" : 1643862035571,
+          "duration" : 741
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/mejores-cuotas/",
+        "time" : {
+          "start" : 1643862035572,
+          "stop" : 1643862035576,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/mejores-cuotas/",
+        "time" : {
+          "start" : 1643862035577,
+          "stop" : 1643862036243,
+          "duration" : 666
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/comparativa-apps-apuestas/",
+        "time" : {
+          "start" : 1643862036243,
+          "stop" : 1643862036246,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/comparativa-apps-apuestas/",
+        "time" : {
+          "start" : 1643862036246,
+          "stop" : 1643862037007,
+          "duration" : 761
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862037007,
+          "stop" : 1643862037023,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862037023,
+          "stop" : 1643862037838,
+          "duration" : 815
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862037838,
+          "stop" : 1643862037841,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862037841,
+          "stop" : 1643862038525,
+          "duration" : 684
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/champions-league/",
+        "time" : {
+          "start" : 1643862038526,
+          "stop" : 1643862038529,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/champions-league/",
+        "time" : {
+          "start" : 1643862038529,
+          "stop" : 1643862039223,
+          "duration" : 694
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/tenis/",
+        "time" : {
+          "start" : 1643862039223,
+          "stop" : 1643862039226,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/tenis/",
+        "time" : {
+          "start" : 1643862039226,
+          "stop" : 1643862039933,
+          "duration" : 707
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/nfl/",
+        "time" : {
+          "start" : 1643862039933,
+          "stop" : 1643862039936,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/nfl/",
+        "time" : {
+          "start" : 1643862039937,
+          "stop" : 1643862040635,
+          "duration" : 698
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/nfl/super-bowl/",
+        "time" : {
+          "start" : 1643862040635,
+          "stop" : 1643862040638,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/nfl/super-bowl/",
+        "time" : {
+          "start" : 1643862040638,
+          "stop" : 1643862041317,
+          "duration" : 679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/latinoamerica/",
+        "time" : {
+          "start" : 1643862041317,
+          "stop" : 1643862041320,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/latinoamerica/",
+        "time" : {
+          "start" : 1643862041320,
+          "stop" : 1643862041979,
+          "duration" : 659
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/argentina/",
+        "time" : {
+          "start" : 1643862041979,
+          "stop" : 1643862041982,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/argentina/",
+        "time" : {
+          "start" : 1643862041982,
+          "stop" : 1643862043754,
+          "duration" : 1772
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bolivia/",
+        "time" : {
+          "start" : 1643862043754,
+          "stop" : 1643862043756,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bolivia/",
+        "time" : {
+          "start" : 1643862043757,
+          "stop" : 1643862044567,
+          "duration" : 810
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/chile/",
+        "time" : {
+          "start" : 1643862044567,
+          "stop" : 1643862044571,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/chile/",
+        "time" : {
+          "start" : 1643862044571,
+          "stop" : 1643862045462,
+          "duration" : 891
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/colombia/",
+        "time" : {
+          "start" : 1643862045462,
+          "stop" : 1643862045466,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/colombia/",
+        "time" : {
+          "start" : 1643862045466,
+          "stop" : 1643862046280,
+          "duration" : 814
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ecuador/",
+        "time" : {
+          "start" : 1643862046281,
+          "stop" : 1643862046283,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ecuador/",
+        "time" : {
+          "start" : 1643862046284,
+          "stop" : 1643862047110,
+          "duration" : 826
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/mexico/",
+        "time" : {
+          "start" : 1643862047110,
+          "stop" : 1643862047112,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/mexico/",
+        "time" : {
+          "start" : 1643862047113,
+          "stop" : 1643862048062,
+          "duration" : 949
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/peru/",
+        "time" : {
+          "start" : 1643862048063,
+          "stop" : 1643862048067,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/peru/",
+        "time" : {
+          "start" : 1643862048068,
+          "stop" : 1643862049064,
+          "duration" : 996
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/venezuela/",
+        "time" : {
+          "start" : 1643862049064,
+          "stop" : 1643862049067,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/venezuela/",
+        "time" : {
+          "start" : 1643862049067,
+          "stop" : 1643862049924,
+          "duration" : 857
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bonos/",
+        "time" : {
+          "start" : 1643862049924,
+          "stop" : 1643862049928,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bonos/",
+        "time" : {
+          "start" : 1643862049928,
+          "stop" : 1643862050669,
+          "duration" : 741
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bonos/bienvenida/",
+        "time" : {
+          "start" : 1643862050669,
+          "stop" : 1643862050672,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bonos/bienvenida/",
+        "time" : {
+          "start" : 1643862050672,
+          "stop" : 1643862051335,
+          "duration" : 663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bonos/bonos-sin-deposito/",
+        "time" : {
+          "start" : 1643862051336,
+          "stop" : 1643862051338,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bonos/bonos-sin-deposito/",
+        "time" : {
+          "start" : 1643862051339,
+          "stop" : 1643862052034,
+          "duration" : 695
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/supercuotas/",
+        "time" : {
+          "start" : 1643862052034,
+          "stop" : 1643862052037,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/supercuotas/",
+        "time" : {
+          "start" : 1643862052037,
+          "stop" : 1643862052767,
+          "duration" : 730
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-gratis/",
+        "time" : {
+          "start" : 1643862052767,
+          "stop" : 1643862052770,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-gratis/",
+        "time" : {
+          "start" : 1643862052770,
+          "stop" : 1643862053409,
+          "duration" : 639
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/",
+        "time" : {
+          "start" : 1643862053409,
+          "stop" : 1643862053412,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/",
+        "time" : {
+          "start" : 1643862053412,
+          "stop" : 1643862054120,
+          "duration" : 708
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/visa-mastercard/",
+        "time" : {
+          "start" : 1643862054120,
+          "stop" : 1643862054123,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/visa-mastercard/",
+        "time" : {
+          "start" : 1643862054123,
+          "stop" : 1643862054809,
+          "duration" : 686
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/paypal/",
+        "time" : {
+          "start" : 1643862054809,
+          "stop" : 1643862054812,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/paypal/",
+        "time" : {
+          "start" : 1643862054813,
+          "stop" : 1643862055565,
+          "duration" : 752
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/skrill/",
+        "time" : {
+          "start" : 1643862055565,
+          "stop" : 1643862055568,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/skrill/",
+        "time" : {
+          "start" : 1643862055568,
+          "stop" : 1643862056197,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/neteller/",
+        "time" : {
+          "start" : 1643862056197,
+          "stop" : 1643862056201,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/neteller/",
+        "time" : {
+          "start" : 1643862056201,
+          "stop" : 1643862056883,
+          "duration" : 682
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/bitcoin/",
+        "time" : {
+          "start" : 1643862056883,
+          "stop" : 1643862056886,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/bitcoin/",
+        "time" : {
+          "start" : 1643862056886,
+          "stop" : 1643862057648,
+          "duration" : 762
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862057648,
+          "stop" : 1643862057651,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862057651,
+          "stop" : 1643862057817,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casinos/en-vivo/",
+        "time" : {
+          "start" : 1643862057818,
+          "stop" : 1643862057821,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casinos/en-vivo/",
+        "time" : {
+          "start" : 1643862057821,
+          "stop" : 1643862058688,
+          "duration" : 867
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bingo/",
+        "time" : {
+          "start" : 1643862058688,
+          "stop" : 1643862058691,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bingo/",
+        "time" : {
+          "start" : 1643862058691,
+          "stop" : 1643862058763,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/poker/",
+        "time" : {
+          "start" : 1643862058763,
+          "stop" : 1643862058774,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/poker/",
+        "time" : {
+          "start" : 1643862058778,
+          "stop" : 1643862059509,
+          "duration" : 731
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/poker/bonos-sin-deposito/",
+        "time" : {
+          "start" : 1643862059509,
+          "stop" : 1643862059512,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/poker/bonos-sin-deposito/",
+        "time" : {
+          "start" : 1643862059512,
+          "stop" : 1643862059836,
+          "duration" : 324
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862059836,
+          "stop" : 1643862059839,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862059839,
+          "stop" : 1643862060520,
+          "duration" : 681
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/cs-go/",
+        "time" : {
+          "start" : 1643862060531,
+          "stop" : 1643862060552,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/cs-go/",
+        "time" : {
+          "start" : 1643862060552,
+          "stop" : 1643862061208,
+          "duration" : 656
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/dota-2/",
+        "time" : {
+          "start" : 1643862061208,
+          "stop" : 1643862061211,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/dota-2/",
+        "time" : {
+          "start" : 1643862061211,
+          "stop" : 1643862062560,
+          "duration" : 1349
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/fifa/",
+        "time" : {
+          "start" : 1643862062560,
+          "stop" : 1643862062563,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/fifa/",
+        "time" : {
+          "start" : 1643862062563,
+          "stop" : 1643862063251,
+          "duration" : 688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/fortnite/",
+        "time" : {
+          "start" : 1643862063251,
+          "stop" : 1643862063255,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/fortnite/",
+        "time" : {
+          "start" : 1643862063255,
+          "stop" : 1643862063934,
+          "duration" : 679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862063934,
+          "stop" : 1643862063937,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862063937,
+          "stop" : 1643862064030,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862064030,
+          "stop" : 1643862064033,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862064033,
+          "stop" : 1643862064187,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Primero_Analizamos_la_oferta_deportiva_y_mercados_de_apuestas_online",
+        "time" : {
+          "start" : 1643862064188,
+          "stop" : 1643862064190,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Primero_Analizamos_la_oferta_deportiva_y_mercados_de_apuestas_online",
+        "time" : {
+          "start" : 1643862064190,
+          "stop" : 1643862064337,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Apuestas_en_vivo_y_streaming_son_indispensables",
+        "time" : {
+          "start" : 1643862064337,
+          "stop" : 1643862064341,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Apuestas_en_vivo_y_streaming_son_indispensables",
+        "time" : {
+          "start" : 1643862064341,
+          "stop" : 1643862064470,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Buscamos_las_mejores_apuestas_online_al_futbol",
+        "time" : {
+          "start" : 1643862064471,
+          "stop" : 1643862064478,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Buscamos_las_mejores_apuestas_online_al_futbol",
+        "time" : {
+          "start" : 1643862064478,
+          "stop" : 1643862064635,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862064636,
+          "stop" : 1643862064646,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862064647,
+          "stop" : 1643862064818,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Somos_un_comparador_de_apuestas_y_cuotas",
+        "time" : {
+          "start" : 1643862064818,
+          "stop" : 1643862064821,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Somos_un_comparador_de_apuestas_y_cuotas",
+        "time" : {
+          "start" : 1643862064821,
+          "stop" : 1643862064994,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Apps_de_apuestas_en_nuestra_mira",
+        "time" : {
+          "start" : 1643862064995,
+          "stop" : 1643862064998,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Apps_de_apuestas_en_nuestra_mira",
+        "time" : {
+          "start" : 1643862064999,
+          "stop" : 1643862065152,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Evaluamos_el_servicio_al_cliente",
+        "time" : {
+          "start" : 1643862065153,
+          "stop" : 1643862065157,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Evaluamos_el_servicio_al_cliente",
+        "time" : {
+          "start" : 1643862065157,
+          "stop" : 1643862065266,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Indagamos_por_los_mejores_metodos_de_pago",
+        "time" : {
+          "start" : 1643862065266,
+          "stop" : 1643862065269,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Indagamos_por_los_mejores_metodos_de_pago",
+        "time" : {
+          "start" : 1643862065269,
+          "stop" : 1643862065444,
+          "duration" : 175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Usabilidad_en_paginas_de_apuestas_factor_decisivo",
+        "time" : {
+          "start" : 1643862065444,
+          "stop" : 1643862065446,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Usabilidad_en_paginas_de_apuestas_factor_decisivo",
+        "time" : {
+          "start" : 1643862065447,
+          "stop" : 1643862065549,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Paginas_de_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862065549,
+          "stop" : 1643862065552,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Paginas_de_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862065552,
+          "stop" : 1643862065691,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Otros_juegos_de_azar_en_linea_disponibles",
+        "time" : {
+          "start" : 1643862065691,
+          "stop" : 1643862065695,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Otros_juegos_de_azar_en_linea_disponibles",
+        "time" : {
+          "start" : 1643862065695,
+          "stop" : 1643862065808,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Preguntas_Frecuentes_Apuestas_Online_FAQs",
+        "time" : {
+          "start" : 1643862065808,
+          "stop" : 1643862065811,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Preguntas_Frecuentes_Apuestas_Online_FAQs",
+        "time" : {
+          "start" : 1643862065811,
+          "stop" : 1643862065907,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862065908,
+          "stop" : 1643862065910,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862065910,
+          "stop" : 1643862066003,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862066003,
+          "stop" : 1643862066006,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862066006,
+          "stop" : 1643862066118,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862066118,
+          "stop" : 1643862066129,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862066129,
+          "stop" : 1643862066258,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862066259,
+          "stop" : 1643862066262,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862066262,
+          "stop" : 1643862066366,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862066366,
+          "stop" : 1643862066370,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/",
+        "time" : {
+          "start" : 1643862066370,
+          "stop" : 1643862066489,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862066489,
+          "stop" : 1643862066493,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/",
+        "time" : {
+          "start" : 1643862066493,
+          "stop" : 1643862066596,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862066597,
+          "stop" : 1643862066600,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862066600,
+          "stop" : 1643862066733,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862066734,
+          "stop" : 1643862066738,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862066738,
+          "stop" : 1643862066862,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862066862,
+          "stop" : 1643862066868,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862066869,
+          "stop" : 1643862067499,
+          "duration" : 630
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/888?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862067499,
+          "stop" : 1643862067502,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/888?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862067503,
+          "stop" : 1643862071124,
+          "duration" : 3621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/pokerstars/",
+        "time" : {
+          "start" : 1643862071126,
+          "stop" : 1643862071128,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/pokerstars/",
+        "time" : {
+          "start" : 1643862071129,
+          "stop" : 1643862071753,
+          "duration" : 624
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/pokerstars?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862071753,
+          "stop" : 1643862071756,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/pokerstars?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862071756,
+          "stop" : 1643862075055,
+          "duration" : 3299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862075056,
+          "stop" : 1643862075059,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862075059,
+          "stop" : 1643862075710,
+          "duration" : 651
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/bet365?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862075710,
+          "stop" : 1643862075714,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 403 https://apuestasonline.net/ir/bet365?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862075714,
+          "stop" : 1643862076728,
+          "duration" : 1014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/leo-vegas/",
+        "time" : {
+          "start" : 1643862076728,
+          "stop" : 1643862076731,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/leo-vegas/",
+        "time" : {
+          "start" : 1643862076731,
+          "stop" : 1643862077373,
+          "duration" : 642
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/leo-vegas?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862077373,
+          "stop" : 1643862077376,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/leo-vegas?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862077377,
+          "stop" : 1643862079998,
+          "duration" : 2621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betsson-es/",
+        "time" : {
+          "start" : 1643862079998,
+          "stop" : 1643862080001,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betsson-es/",
+        "time" : {
+          "start" : 1643862080014,
+          "stop" : 1643862080685,
+          "duration" : 671
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/betsson?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862080686,
+          "stop" : 1643862080690,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/betsson?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862080690,
+          "stop" : 1643862082562,
+          "duration" : 1872
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/william-hill/",
+        "time" : {
+          "start" : 1643862082563,
+          "stop" : 1643862082566,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/william-hill/",
+        "time" : {
+          "start" : 1643862082566,
+          "stop" : 1643862083187,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/williamhill?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862083187,
+          "stop" : 1643862083190,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/williamhill?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862083190,
+          "stop" : 1643862085878,
+          "duration" : 2688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862085878,
+          "stop" : 1643862085912,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862085912,
+          "stop" : 1643862086586,
+          "duration" : 674
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/sportium?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862086587,
+          "stop" : 1643862086591,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/sportium?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862086591,
+          "stop" : 1643862090125,
+          "duration" : 3534
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/paf/",
+        "time" : {
+          "start" : 1643862090125,
+          "stop" : 1643862090162,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/paf/",
+        "time" : {
+          "start" : 1643862090163,
+          "stop" : 1643862090792,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/paf?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862090793,
+          "stop" : 1643862090796,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 403 https://apuestasonline.net/ir/paf?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862090796,
+          "stop" : 1643862092168,
+          "duration" : 1372
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862092168,
+          "stop" : 1643862092171,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862092172,
+          "stop" : 1643862092793,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/codere?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862092793,
+          "stop" : 1643862092797,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/codere?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862092797,
+          "stop" : 1643862099706,
+          "duration" : 6909
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/versus/",
+        "time" : {
+          "start" : 1643862099706,
+          "stop" : 1643862099749,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/versus/",
+        "time" : {
+          "start" : 1643862099750,
+          "stop" : 1643862100352,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/versus?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862100352,
+          "stop" : 1643862100356,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/versus?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862100356,
+          "stop" : 1643862102258,
+          "duration" : 1902
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betfair/",
+        "time" : {
+          "start" : 1643862102258,
+          "stop" : 1643862102261,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betfair/",
+        "time" : {
+          "start" : 1643862102262,
+          "stop" : 1643862102942,
+          "duration" : 680
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/betfairapuestas?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862102942,
+          "stop" : 1643862102945,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 403 https://apuestasonline.net/ir/betfairapuestas?ev=uspRankingTableV2",
+        "time" : {
+          "start" : 1643862102946,
+          "stop" : 1643862104240,
+          "duration" : 1294
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862104240,
+          "stop" : 1643862104243,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862104244,
+          "stop" : 1643862104997,
+          "duration" : 753
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.linkedin.com/in/ral-muoz-gutirrez/",
+        "time" : {
+          "start" : 1643862104997,
+          "stop" : 1643862105005,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 999 https://www.linkedin.com/in/ral-muoz-gutirrez/",
+        "time" : {
+          "start" : 1643862105005,
+          "stop" : 1643862105145,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/mario/",
+        "time" : {
+          "start" : 1643862105145,
+          "stop" : 1643862105148,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/mario/",
+        "time" : {
+          "start" : 1643862105149,
+          "stop" : 1643862105784,
+          "duration" : 635
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.linkedin.com/in/mario-magro-sanchez/",
+        "time" : {
+          "start" : 1643862105784,
+          "stop" : 1643862105787,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 999 https://www.linkedin.com/in/mario-magro-sanchez/",
+        "time" : {
+          "start" : 1643862105788,
+          "stop" : 1643862105891,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/alejandra/",
+        "time" : {
+          "start" : 1643862105891,
+          "stop" : 1643862105895,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/alejandra/",
+        "time" : {
+          "start" : 1643862105895,
+          "stop" : 1643862106513,
+          "duration" : 618
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.linkedin.com/in/alejandra-chipatecua-53a02b25/",
+        "time" : {
+          "start" : 1643862106513,
+          "stop" : 1643862106516,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 999 https://www.linkedin.com/in/alejandra-chipatecua-53a02b25/",
+        "time" : {
+          "start" : 1643862106516,
+          "stop" : 1643862106599,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#1_Analizamos_la_oferta_deportiva_y_mercados_de_apuestas_online",
+        "time" : {
+          "start" : 1643862106599,
+          "stop" : 1643862106603,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#1_Analizamos_la_oferta_deportiva_y_mercados_de_apuestas_online",
+        "time" : {
+          "start" : 1643862106603,
+          "stop" : 1643862106728,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#2_Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862106729,
+          "stop" : 1643862106741,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#2_Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862106741,
+          "stop" : 1643862107011,
+          "duration" : 270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#3_Somos_un_comparador_de_apuestas_y_cuotas",
+        "time" : {
+          "start" : 1643862107012,
+          "stop" : 1643862107015,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#3_Somos_un_comparador_de_apuestas_y_cuotas",
+        "time" : {
+          "start" : 1643862107015,
+          "stop" : 1643862107149,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#4_Testeamos_las_diferentes_apps_de_apuestas",
+        "time" : {
+          "start" : 1643862107150,
+          "stop" : 1643862107152,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#4_Testeamos_las_diferentes_apps_de_apuestas",
+        "time" : {
+          "start" : 1643862107152,
+          "stop" : 1643862107288,
+          "duration" : 136
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#5_Evaluamos_el_servicio_de_atencion_al_cliente",
+        "time" : {
+          "start" : 1643862107288,
+          "stop" : 1643862107291,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#5_Evaluamos_el_servicio_de_atencion_al_cliente",
+        "time" : {
+          "start" : 1643862107292,
+          "stop" : 1643862107532,
+          "duration" : 240
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#6_Indagamos_en_busca_de_los_mejores_metodos_de_pago",
+        "time" : {
+          "start" : 1643862107532,
+          "stop" : 1643862107537,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#6_Indagamos_en_busca_de_los_mejores_metodos_de_pago",
+        "time" : {
+          "start" : 1643862107537,
+          "stop" : 1643862107728,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#7_Examinamos_la_usabilidad_en_las_paginas_de_apuestas",
+        "time" : {
+          "start" : 1643862107728,
+          "stop" : 1643862107732,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#7_Examinamos_la_usabilidad_en_las_paginas_de_apuestas",
+        "time" : {
+          "start" : 1643862107732,
+          "stop" : 1643862107921,
+          "duration" : 189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#8_Rastreamos_los_mejores_bonos_y_promociones",
+        "time" : {
+          "start" : 1643862107922,
+          "stop" : 1643862107925,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#8_Rastreamos_los_mejores_bonos_y_promociones",
+        "time" : {
+          "start" : 1643862107925,
+          "stop" : 1643862108074,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862108074,
+          "stop" : 1643862108077,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/",
+        "time" : {
+          "start" : 1643862108077,
+          "stop" : 1643862108195,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas-combinadas/",
+        "time" : {
+          "start" : 1643862108195,
+          "stop" : 1643862108198,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas-combinadas/",
+        "time" : {
+          "start" : 1643862108199,
+          "stop" : 1643862108832,
+          "duration" : 633
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuesta-simple/",
+        "time" : {
+          "start" : 1643862108832,
+          "stop" : 1643862108835,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuesta-simple/",
+        "time" : {
+          "start" : 1643862108836,
+          "stop" : 1643862109461,
+          "duration" : 625
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/handicap-apuestas/",
+        "time" : {
+          "start" : 1643862109462,
+          "stop" : 1643862109467,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/handicap-apuestas/",
+        "time" : {
+          "start" : 1643862109467,
+          "stop" : 1643862110179,
+          "duration" : 712
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-cruzadas/",
+        "time" : {
+          "start" : 1643862110179,
+          "stop" : 1643862110183,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-cruzadas/",
+        "time" : {
+          "start" : 1643862110183,
+          "stop" : 1643862110849,
+          "duration" : 666
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casas-de-apuestas/cash-out/",
+        "time" : {
+          "start" : 1643862110849,
+          "stop" : 1643862110853,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casas-de-apuestas/cash-out/",
+        "time" : {
+          "start" : 1643862110853,
+          "stop" : 1643862111477,
+          "duration" : 624
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/streaming/",
+        "time" : {
+          "start" : 1643862111477,
+          "stop" : 1643862111481,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/streaming/",
+        "time" : {
+          "start" : 1643862111481,
+          "stop" : 1643862112299,
+          "duration" : 818
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862112299,
+          "stop" : 1643862112303,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862112303,
+          "stop" : 1643862112446,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862112447,
+          "stop" : 1643862112450,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862112451,
+          "stop" : 1643862112590,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/apuestas-directo/",
+        "time" : {
+          "start" : 1643862112590,
+          "stop" : 1643862112594,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/apuestas-directo/",
+        "time" : {
+          "start" : 1643862112594,
+          "stop" : 1643862113339,
+          "duration" : 745
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/laliga/",
+        "time" : {
+          "start" : 1643862113340,
+          "stop" : 1643862113343,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/laliga/",
+        "time" : {
+          "start" : 1643862113343,
+          "stop" : 1643862114029,
+          "duration" : 686
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/el-clasico/",
+        "time" : {
+          "start" : 1643862114030,
+          "stop" : 1643862114033,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/el-clasico/",
+        "time" : {
+          "start" : 1643862114033,
+          "stop" : 1643862114789,
+          "duration" : 756
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/futbol/champions-league/",
+        "time" : {
+          "start" : 1643862114789,
+          "stop" : 1643862114794,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/futbol/champions-league/",
+        "time" : {
+          "start" : 1643862114794,
+          "stop" : 1643862114920,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862114920,
+          "stop" : 1643862114923,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/apuestas-deportivas/esports/",
+        "time" : {
+          "start" : 1643862114924,
+          "stop" : 1643862115111,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/comparativa-apps-apuestas/",
+        "time" : {
+          "start" : 1643862115111,
+          "stop" : 1643862115115,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/comparativa-apps-apuestas/",
+        "time" : {
+          "start" : 1643862115115,
+          "stop" : 1643862115226,
+          "duration" : 111
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/visa-mastercard/",
+        "time" : {
+          "start" : 1643862115226,
+          "stop" : 1643862115229,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/visa-mastercard/",
+        "time" : {
+          "start" : 1643862115230,
+          "stop" : 1643862115338,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/paypal/",
+        "time" : {
+          "start" : 1643862115339,
+          "stop" : 1643862115342,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/paypal/",
+        "time" : {
+          "start" : 1643862115342,
+          "stop" : 1643862115454,
+          "duration" : 112
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/metodos-de-pago/paysafecard/",
+        "time" : {
+          "start" : 1643862115454,
+          "stop" : 1643862115458,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/metodos-de-pago/paysafecard/",
+        "time" : {
+          "start" : 1643862115458,
+          "stop" : 1643862116050,
+          "duration" : 592
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bonos/bienvenida/",
+        "time" : {
+          "start" : 1643862116051,
+          "stop" : 1643862116054,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bonos/bienvenida/",
+        "time" : {
+          "start" : 1643862116054,
+          "stop" : 1643862116138,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862116138,
+          "stop" : 1643862116141,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862116141,
+          "stop" : 1643862116380,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862116380,
+          "stop" : 1643862116383,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862116384,
+          "stop" : 1643862116499,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/codere",
+        "time" : {
+          "start" : 1643862116499,
+          "stop" : 1643862116503,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/codere",
+        "time" : {
+          "start" : 1643862116503,
+          "stop" : 1643862117462,
+          "duration" : 959
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862117463,
+          "stop" : 1643862117466,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862117466,
+          "stop" : 1643862118074,
+          "duration" : 608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862118075,
+          "stop" : 1643862118079,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862118080,
+          "stop" : 1643862118238,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/luckia",
+        "time" : {
+          "start" : 1643862118239,
+          "stop" : 1643862118243,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/luckia",
+        "time" : {
+          "start" : 1643862118243,
+          "stop" : 1643862122199,
+          "duration" : 3956
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862122200,
+          "stop" : 1643862122238,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862122238,
+          "stop" : 1643862122319,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862122320,
+          "stop" : 1643862122323,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862122324,
+          "stop" : 1643862122459,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/ir/sportium",
+        "time" : {
+          "start" : 1643862122459,
+          "stop" : 1643862122463,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/ir/sportium",
+        "time" : {
+          "start" : 1643862122463,
+          "stop" : 1643862124037,
+          "duration" : 1574
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862124038,
+          "stop" : 1643862124041,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862124042,
+          "stop" : 1643862124216,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862124216,
+          "stop" : 1643862124221,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862124221,
+          "stop" : 1643862124423,
+          "duration" : 202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/estrategias/",
+        "time" : {
+          "start" : 1643862124423,
+          "stop" : 1643862124426,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/estrategias/",
+        "time" : {
+          "start" : 1643862124426,
+          "stop" : 1643862125154,
+          "duration" : 728
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/los-11-mejores-tipsters-espanol/",
+        "time" : {
+          "start" : 1643862125154,
+          "stop" : 1643862125183,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/los-11-mejores-tipsters-espanol/",
+        "time" : {
+          "start" : 1643862125183,
+          "stop" : 1643862125904,
+          "duration" : 721
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/guia-fiscal-declarar-ganancias-online/",
+        "time" : {
+          "start" : 1643862125905,
+          "stop" : 1643862125909,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/guia-fiscal-declarar-ganancias-online/",
+        "time" : {
+          "start" : 1643862125909,
+          "stop" : 1643862127421,
+          "duration" : 1512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862127422,
+          "stop" : 1643862127426,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casinos/",
+        "time" : {
+          "start" : 1643862127426,
+          "stop" : 1643862127635,
+          "duration" : 209
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/poker/",
+        "time" : {
+          "start" : 1643862127635,
+          "stop" : 1643862127639,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/poker/",
+        "time" : {
+          "start" : 1643862127639,
+          "stop" : 1643862127834,
+          "duration" : 195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/bingo/",
+        "time" : {
+          "start" : 1643862127834,
+          "stop" : 1643862127838,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/bingo/",
+        "time" : {
+          "start" : 1643862127838,
+          "stop" : 1643862128039,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/loterias-y-apuestas/",
+        "time" : {
+          "start" : 1643862128039,
+          "stop" : 1643862128053,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/loterias-y-apuestas/",
+        "time" : {
+          "start" : 1643862128054,
+          "stop" : 1643862128652,
+          "duration" : 598
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862128653,
+          "stop" : 1643862128657,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Mejores_sitios_de_apuestas_online",
+        "time" : {
+          "start" : 1643862128657,
+          "stop" : 1643862128845,
+          "duration" : 188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#2_Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862128846,
+          "stop" : 1643862128850,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#2_Solo_recomendamos_apuestas_online_en_Espana_seguras",
+        "time" : {
+          "start" : 1643862128850,
+          "stop" : 1643862129029,
+          "duration" : 179
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862129029,
+          "stop" : 1643862129034,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862129034,
+          "stop" : 1643862129275,
+          "duration" : 241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Pasos_para_iniciarse_en_las_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862129275,
+          "stop" : 1643862129280,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Pasos_para_iniciarse_en_las_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862129280,
+          "stop" : 1643862129455,
+          "duration" : 175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862129455,
+          "stop" : 1643862129460,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862129460,
+          "stop" : 1643862129623,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862129623,
+          "stop" : 1643862129627,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862129628,
+          "stop" : 1643862129792,
+          "duration" : 164
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862129792,
+          "stop" : 1643862129796,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/raul/",
+        "time" : {
+          "start" : 1643862129796,
+          "stop" : 1643862129972,
+          "duration" : 176
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/mario/",
+        "time" : {
+          "start" : 1643862129972,
+          "stop" : 1643862129976,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/mario/",
+        "time" : {
+          "start" : 1643862129976,
+          "stop" : 1643862130172,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/alejandra/",
+        "time" : {
+          "start" : 1643862130172,
+          "stop" : 1643862130177,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/alejandra/",
+        "time" : {
+          "start" : 1643862130178,
+          "stop" : 1643862130364,
+          "duration" : 186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/rosa/",
+        "time" : {
+          "start" : 1643862130364,
+          "stop" : 1643862130369,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/rosa/",
+        "time" : {
+          "start" : 1643862130370,
+          "stop" : 1643862131026,
+          "duration" : 656
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/juan-carlos/",
+        "time" : {
+          "start" : 1643862131026,
+          "stop" : 1643862131030,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/juan-carlos/",
+        "time" : {
+          "start" : 1643862131031,
+          "stop" : 1643862131719,
+          "duration" : 688
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/author/luis/",
+        "time" : {
+          "start" : 1643862131720,
+          "stop" : 1643862131723,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/author/luis/",
+        "time" : {
+          "start" : 1643862131724,
+          "stop" : 1643862132325,
+          "duration" : 601
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Mejores_sitios_de_apuestas_online_febrero_2022",
+        "time" : {
+          "start" : 1643862132325,
+          "stop" : 1643862132330,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Mejores_sitios_de_apuestas_online_febrero_2022",
+        "time" : {
+          "start" : 1643862132330,
+          "stop" : 1643862132542,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Los_expertos_de_ApuestasOnlinenet",
+        "time" : {
+          "start" : 1643862132542,
+          "stop" : 1643862132547,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Los_expertos_de_ApuestasOnlinenet",
+        "time" : {
+          "start" : 1643862132547,
+          "stop" : 1643862132854,
+          "duration" : 307
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862132854,
+          "stop" : 1643862132858,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Como_elegimos_las_mejores_apuestas_online_de_Espana",
+        "time" : {
+          "start" : 1643862132858,
+          "stop" : 1643862133080,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Paginas_de_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862133080,
+          "stop" : 1643862133084,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Paginas_de_apuestas_online_Espana",
+        "time" : {
+          "start" : 1643862133084,
+          "stop" : 1643862133281,
+          "duration" : 197
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Que_son_las_apuestas_online",
+        "time" : {
+          "start" : 1643862133281,
+          "stop" : 1643862133286,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Que_son_las_apuestas_online",
+        "time" : {
+          "start" : 1643862133286,
+          "stop" : 1643862133475,
+          "duration" : 189
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Otros_juegos_de_azar_en_linea_disponibles",
+        "time" : {
+          "start" : 1643862133475,
+          "stop" : 1643862133479,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Otros_juegos_de_azar_en_linea_disponibles",
+        "time" : {
+          "start" : 1643862133479,
+          "stop" : 1643862133685,
+          "duration" : 206
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#Preguntas_Frecuentes_Apuestas_Online_FAQs",
+        "time" : {
+          "start" : 1643862133685,
+          "stop" : 1643862133689,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#Preguntas_Frecuentes_Apuestas_Online_FAQs",
+        "time" : {
+          "start" : 1643862133689,
+          "stop" : 1643862133879,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862133879,
+          "stop" : 1643862133883,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/888sport/",
+        "time" : {
+          "start" : 1643862133883,
+          "stop" : 1643862134114,
+          "duration" : 231
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/pokerstars/",
+        "time" : {
+          "start" : 1643862134114,
+          "stop" : 1643862134118,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/pokerstars/",
+        "time" : {
+          "start" : 1643862134118,
+          "stop" : 1643862134222,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862134222,
+          "stop" : 1643862134226,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/bet365/",
+        "time" : {
+          "start" : 1643862134226,
+          "stop" : 1643862134403,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/leo-vegas/",
+        "time" : {
+          "start" : 1643862134403,
+          "stop" : 1643862134407,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/leo-vegas/",
+        "time" : {
+          "start" : 1643862134407,
+          "stop" : 1643862134749,
+          "duration" : 342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betsson-es/",
+        "time" : {
+          "start" : 1643862134749,
+          "stop" : 1643862134754,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betsson-es/",
+        "time" : {
+          "start" : 1643862134754,
+          "stop" : 1643862134938,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/william-hill/",
+        "time" : {
+          "start" : 1643862134939,
+          "stop" : 1643862134944,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/william-hill/",
+        "time" : {
+          "start" : 1643862134945,
+          "stop" : 1643862135147,
+          "duration" : 202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/paf/",
+        "time" : {
+          "start" : 1643862135148,
+          "stop" : 1643862135152,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/paf/",
+        "time" : {
+          "start" : 1643862135152,
+          "stop" : 1643862135354,
+          "duration" : 202
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862135355,
+          "stop" : 1643862135360,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/codere/",
+        "time" : {
+          "start" : 1643862135360,
+          "stop" : 1643862135553,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betfair/",
+        "time" : {
+          "start" : 1643862135553,
+          "stop" : 1643862135557,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betfair/",
+        "time" : {
+          "start" : 1643862135557,
+          "stop" : 1643862135735,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/1xbet-espana/",
+        "time" : {
+          "start" : 1643862135735,
+          "stop" : 1643862135739,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/1xbet-espana/",
+        "time" : {
+          "start" : 1643862135739,
+          "stop" : 1643862136355,
+          "duration" : 616
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betfred/",
+        "time" : {
+          "start" : 1643862136355,
+          "stop" : 1643862136359,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betfred/",
+        "time" : {
+          "start" : 1643862136359,
+          "stop" : 1643862136967,
+          "duration" : 608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/betway/",
+        "time" : {
+          "start" : 1643862136967,
+          "stop" : 1643862136971,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/betway/",
+        "time" : {
+          "start" : 1643862136971,
+          "stop" : 1643862137615,
+          "duration" : 644
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/bwin/",
+        "time" : {
+          "start" : 1643862137616,
+          "stop" : 1643862137620,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/bwin/",
+        "time" : {
+          "start" : 1643862137620,
+          "stop" : 1643862138314,
+          "duration" : 694
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/dafabet/",
+        "time" : {
+          "start" : 1643862138314,
+          "stop" : 1643862138332,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/dafabet/",
+        "time" : {
+          "start" : 1643862138332,
+          "stop" : 1643862138972,
+          "duration" : 640
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/interwetten/",
+        "time" : {
+          "start" : 1643862138972,
+          "stop" : 1643862138977,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/interwetten/",
+        "time" : {
+          "start" : 1643862138977,
+          "stop" : 1643862139563,
+          "duration" : 586
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862139563,
+          "stop" : 1643862139568,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/luckia/",
+        "time" : {
+          "start" : 1643862139568,
+          "stop" : 1643862139683,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/marcaapuestas/",
+        "time" : {
+          "start" : 1643862139683,
+          "stop" : 1643862139687,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/marcaapuestas/",
+        "time" : {
+          "start" : 1643862139687,
+          "stop" : 1643862140333,
+          "duration" : 646
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/mbet/",
+        "time" : {
+          "start" : 1643862140334,
+          "stop" : 1643862140339,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/mbet/",
+        "time" : {
+          "start" : 1643862140339,
+          "stop" : 1643862140934,
+          "duration" : 595
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/mr-green-es/",
+        "time" : {
+          "start" : 1643862140934,
+          "stop" : 1643862140938,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/mr-green-es/",
+        "time" : {
+          "start" : 1643862140939,
+          "stop" : 1643862141610,
+          "duration" : 671
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/playuzu/",
+        "time" : {
+          "start" : 1643862141611,
+          "stop" : 1643862141616,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/playuzu/",
+        "time" : {
+          "start" : 1643862141617,
+          "stop" : 1643862142223,
+          "duration" : 606
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/rizk/",
+        "time" : {
+          "start" : 1643862142223,
+          "stop" : 1643862142238,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/rizk/",
+        "time" : {
+          "start" : 1643862142238,
+          "stop" : 1643862142853,
+          "duration" : 615
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/sisal/",
+        "time" : {
+          "start" : 1643862142853,
+          "stop" : 1643862142858,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/sisal/",
+        "time" : {
+          "start" : 1643862142858,
+          "stop" : 1643862143460,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862143460,
+          "stop" : 1643862143465,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/sportium/",
+        "time" : {
+          "start" : 1643862143465,
+          "stop" : 1643862143571,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/suertia/",
+        "time" : {
+          "start" : 1643862143571,
+          "stop" : 1643862143575,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/suertia/",
+        "time" : {
+          "start" : 1643862143575,
+          "stop" : 1643862144186,
+          "duration" : 611
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/versus/",
+        "time" : {
+          "start" : 1643862144186,
+          "stop" : 1643862144191,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/versus/",
+        "time" : {
+          "start" : 1643862144191,
+          "stop" : 1643862144382,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/wanabet/",
+        "time" : {
+          "start" : 1643862144382,
+          "stop" : 1643862144386,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/wanabet/",
+        "time" : {
+          "start" : 1643862144387,
+          "stop" : 1643862145034,
+          "duration" : 647
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/casasapuestas/winamax/",
+        "time" : {
+          "start" : 1643862145034,
+          "stop" : 1643862145039,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/casasapuestas/winamax/",
+        "time" : {
+          "start" : 1643862145039,
+          "stop" : 1643862145640,
+          "duration" : 601
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862145640,
+          "stop" : 1643862145658,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/",
+        "time" : {
+          "start" : 1643862145658,
+          "stop" : 1643862145906,
+          "duration" : 248
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://aussiebet.com/",
+        "time" : {
+          "start" : 1643862145907,
+          "stop" : 1643862145911,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://aussiebet.com/",
+        "time" : {
+          "start" : 1643862145911,
+          "stop" : 1643862146115,
+          "duration" : 204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://wett24.com/",
+        "time" : {
+          "start" : 1643862146115,
+          "stop" : 1643862146120,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://wett24.com/",
+        "time" : {
+          "start" : 1643862146120,
+          "stop" : 1643862146857,
+          "duration" : 737
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://scommesse.io/",
+        "time" : {
+          "start" : 1643862146857,
+          "stop" : 1643862146861,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://scommesse.io/",
+        "time" : {
+          "start" : 1643862146861,
+          "stop" : 1643862147049,
+          "duration" : 188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://mybettingbonus.co.uk/",
+        "time" : {
+          "start" : 1643862147049,
+          "stop" : 1643862147053,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://mybettingbonus.co.uk/",
+        "time" : {
+          "start" : 1643862147053,
+          "stop" : 1643862147245,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://sitedeapostasonline.net/",
+        "time" : {
+          "start" : 1643862147245,
+          "stop" : 1643862147249,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://sitedeapostasonline.net/",
+        "time" : {
+          "start" : 1643862147249,
+          "stop" : 1643862147440,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestas.mx/",
+        "time" : {
+          "start" : 1643862147441,
+          "stop" : 1643862147445,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestas.mx/",
+        "time" : {
+          "start" : 1643862147445,
+          "stop" : 1643862147706,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://zakladybukmacherskie.net/",
+        "time" : {
+          "start" : 1643862147706,
+          "stop" : 1643862147710,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://zakladybukmacherskie.net/",
+        "time" : {
+          "start" : 1643862147711,
+          "stop" : 1643862147951,
+          "duration" : 240
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.ordenacionjuego.es/es/juego-responsable-dgoj",
+        "time" : {
+          "start" : 1643862147951,
+          "stop" : 1643862147955,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://www.ordenacionjuego.es/es/juego-responsable-dgoj",
+        "time" : {
+          "start" : 1643862147955,
+          "stop" : 1643862150272,
+          "duration" : 2317
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://ordenacionjuego.es/es/rgiaj",
+        "time" : {
+          "start" : 1643862150272,
+          "stop" : 1643862150277,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ordenacionjuego.es/es/rgiaj",
+        "time" : {
+          "start" : 1643862150278,
+          "stop" : 1643862152289,
+          "duration" : 2011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.juegoseguro.es/",
+        "time" : {
+          "start" : 1643862152289,
+          "stop" : 1643862152295,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://www.juegoseguro.es/",
+        "time" : {
+          "start" : 1643862152295,
+          "stop" : 1643862153517,
+          "duration" : 1222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://www.jugarbien.es/",
+        "time" : {
+          "start" : 1643862153517,
+          "stop" : 1643862153523,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://www.jugarbien.es/",
+        "time" : {
+          "start" : 1643862153523,
+          "stop" : 1643862156202,
+          "duration" : 2679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/sobre-nosotros/",
+        "time" : {
+          "start" : 1643862156202,
+          "stop" : 1643862156242,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/sobre-nosotros/",
+        "time" : {
+          "start" : 1643862156242,
+          "stop" : 1643862156947,
+          "duration" : 705
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/juego-responsable/",
+        "time" : {
+          "start" : 1643862156948,
+          "stop" : 1643862156952,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/juego-responsable/",
+        "time" : {
+          "start" : 1643862156952,
+          "stop" : 1643862157516,
+          "duration" : 564
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/privacidad/",
+        "time" : {
+          "start" : 1643862157517,
+          "stop" : 1643862157521,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/privacidad/",
+        "time" : {
+          "start" : 1643862157521,
+          "stop" : 1643862158086,
+          "duration" : 565
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/aviso-legal/",
+        "time" : {
+          "start" : 1643862158086,
+          "stop" : 1643862158091,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/aviso-legal/",
+        "time" : {
+          "start" : 1643862158091,
+          "stop" : 1643862158687,
+          "duration" : 596
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/cookies/",
+        "time" : {
+          "start" : 1643862158687,
+          "stop" : 1643862158711,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/cookies/",
+        "time" : {
+          "start" : 1643862158711,
+          "stop" : 1643862159747,
+          "duration" : 1036
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/cookies/",
+        "time" : {
+          "start" : 1643862159747,
+          "stop" : 1643862159753,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/cookies/",
+        "time" : {
+          "start" : 1643862159753,
+          "stop" : 1643862159878,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "log https://apuestasonline.net/#",
+        "time" : {
+          "start" : 1643862159878,
+          "stop" : 1643862159883,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://apuestasonline.net/#",
+        "time" : {
+          "start" : 1643862159883,
+          "stop" : 1643862160133,
+          "duration" : 250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "writeFile tests-results/output/FailedLinks.txt",
+        "time" : {
+          "start" : 1643862160135,
+          "stop" : 1643862160256,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 412,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1643862160363,
+        "stop" : 1643862160367,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 422,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Link valid and working"
+  }, {
+    "name" : "feature",
+    "value" : "Link valid and working"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "255dcc529ea54f5c.json",
+  "parameterValues" : [ ]
+}
