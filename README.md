@@ -1,4 +1,4 @@
-# 🚀 E2E tests with [Cypress] and [Cucumber]
+# 🚀 E2E tests with [Cypress](https://www.cypress.io/) and [Cucumber](https://www.cucumber.io/)
 
 <p align="center">
   <img src="https://media.giphy.com/media/f6RQunjGphgB1GEVkO/giphy.gif" width="300">
@@ -6,7 +6,7 @@
 
 [![Apuestas Online Cypress Tests](https://github.com/PolianaRufatto/apuestasonline-cypress/actions/workflows/main.yml/badge.svg)](https://github.com/PolianaRufatto/apuestasonline-cypress/actions/workflows/main.yml)
 
-This project is a response to the challenge presented by [KaFe Rocks] and focuses on automating tests for the [APUESTAS ONLINE] website. The tests are implemented in JavaScript using [Cypress] and [Cucumber].
+This project is a response to the challenge presented by [KaFe Rocks](https://kafe.rocks/) and focuses on automating tests for the [APUESTAS ONLINE](https://apuestasonline.net/) website. The tests are implemented in JavaScript using [Cypress](https://www.cypress.io/) and [Cucumber](https://www.cucumber.io/).
 
 ## 📝 Table of Contents
  - [🧐 What's Inside?](#-whats-inside)
@@ -23,13 +23,13 @@ This project is a response to the challenge presented by [KaFe Rocks] and focuse
 
 ## 🧐 What's Inside?
 This project incorporates several key elements, including:
-- **Page Object Pattern**
-- [Gherkin lint] for maintaining organized .feature files
-- [Eslint] for JavaScript linting
-- [Prettier] for code formatting
-- [Husky] for pre-commit and pre-push hooks
-- [Allure Report] for detailed test reporting
-- [Lighthouse] for performance testing
+- Page Object Pattern
+- [Gherkin lint](https://github.com/vsiakka/gherkin-lint) for maintaining organized .feature files
+- [Eslint](https://eslint.org/) for JavaScript linting
+- [Prettier](https://prettier.io/) for code formatting
+- [Husky](https://github.com/typicode/husky) for pre-commit and pre-push hooks
+- [Allure Report](http://allure.qatools.ru/) for detailed test reporting
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance testing
 
 ### 🔄 Continuous Integration
 - **GitHub Actions:** Automated builds and tests
@@ -67,27 +67,10 @@ yarn allure:generate && yarn allure:open
 ```
 
 ### 🚦 GitHub Actions Test Results
-- **Allure Report:** [GitHub Pages - Allure Report]
-- **Performance Report:** [GitHub Pages - Performance Report]
-- **Failed Links:** [GitHub Pages - Failed Links]
+- **Allure Report:** [GitHub Pages - Allure Report](https://polianarufatto.github.io/apuestasonline-cypress/)
+- **Performance Report:** [GitHub Pages - Performance Report](https://polianarufatto.github.io/apuestasonline-cypress/performanceReport.html)
+- **Failed Links:** [GitHub Pages - Failed Links](https://polianarufatto.github.io/apuestasonline-cypress/FailedLinks.txt)
 
 ## ⏭️ Next Features and Improvements
 - Implement parallel test execution
 - Adjust default values for Lighthouse performance tests
-
-
-
-[//]: # (Links)
-[Cypress]: (https://www.cypress.io/)
-[Cucumber]: (https://www.cucumber.io/)
-[KaFe Rocks]: (https://kafe.rocks/)
-[Gherkin lint]: (https://github.com/vsiakka/gherkin-lint)
-[Eslint]: (https://eslint.org/)
-[Prettier]: (https://prettier.io/)
-[Husky]: (https://github.com/typicode/husky)
-[Allure Report]: (http://allure.qatools.ru/)
-[Lighthouse]: (https://developers.google.com/web/tools/lighthouse)
-[APUESTAS ONLINE]: (https://apuestasonline.net/)
-[GitHub Pages - Allure Report]: (https://polianarufatto.github.io/apuestasonline-cypress/)
-[GitHub Pages - Performance Report]: (https://polianarufatto.github.io/apuestasonline-cypress/performanceReport.html)
-[GitHub Pages - Failed Links]: (https://polianarufatto.github.io/apuestasonline-cypress/FailedLinks.txt)
